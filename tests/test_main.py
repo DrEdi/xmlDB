@@ -202,7 +202,7 @@ prepared_data = """
 </all_books>
 """
 
-conn.create_new_db('test_db', prepared_data)
+conn.create_new_db('test', prepared_data)
 
 
 def test_get_all_data():
